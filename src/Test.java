@@ -12,7 +12,6 @@ public class Test {
         Kandidat k1 = new Kandidat("Mateja", "A", "m1@mail.com", Arrays.asList("Java", "SQL", "OOP"));
         Kandidat k2 = new Kandidat("Marko", "B", "m2@mail.com", Arrays.asList("Java"));
         Kandidat k3 = new Kandidat("Jovan", "C", "m3@mail.com", Arrays.asList("Java", "SQL"));
-
         Kandidat k4 = new Kandidat("Ana", "D", "m4@mail.com", Arrays.asList("HTML", "CSS"));
         // prijave (3 prolaze, 1 ne)
         k1.prijaviSeNaKonkurs(konkurs);
