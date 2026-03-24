@@ -45,7 +45,6 @@ public abstract class Intervju {
             // ako su isti poeni → raniji datum ima prednost
             return a.getOdradjeno().compareTo(b.getOdradjeno());
         });
-
         // 3. uzmi prvih N
         List<Kandidat> rezultat = new ArrayList<>();
         for (int i = 0; i < prosli.size(); i++) {
